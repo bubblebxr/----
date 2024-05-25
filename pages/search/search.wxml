@@ -1,0 +1,4 @@
+<!--搜索框  -->
+<view class="header">
+    <input class="input" type="text" bindinput="getSearch" placeholder="搜索"/>
+</view>

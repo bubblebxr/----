@@ -1,0 +1,53 @@
+/* 输入 */
+.input{
+  text-align:center;
+  margin-top:50rpx;
+  margin-left:30rpx;
+  margin-right:20rpx;
+  margin-bottom:20rpx;
+  border:2rpx solid #ccc;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  border-radius:30rpx;  
+}
+.but{
+  margin-right:20rpx;
+  margin-bottom:120rpx;
+}
+.button{
+  float:right;
+  padding-top:11rpx;
+}
+/* 展示反馈与建议 */
+.all{
+  border:2rpx solid #ccc;
+  margin-top:20rpx;
+  margin-left:30rpx;
+  margin-right:20rpx;
+  margin-bottom:10rpx;
+  border-radius:30rpx;  
+  padding-bottom:20rpx;
+  padding-left:20rpx;
+  text-align:left;
+}
+.yes{
+  color:green;
+  font-weight:700;
+}
+.none{
+  color:red;
+  font-weight:700;
+}
+.icon{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 80rpx;
+  vertical-align:middle;
+}
+.ques{
+  font-size:34rpx;
+}
+.solu{
+  font-size:30rpx;
+  margin-left:80rpx;
+}

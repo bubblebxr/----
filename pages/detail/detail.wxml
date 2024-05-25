@@ -1,0 +1,37 @@
+<view>
+  <view wx:for="{{detail.jingdian}}" wx:key="index">
+    <!-- 展示景点简介 -->
+    <view class="itemroot">
+      <view class="pic"><image class="img"src="{{item.img}}"></image></view>
+      <view class="ti"><text class="tittle">{{item.name}}\n</text></view>
+      <view class="grade"><text>景区质量等级：{{item.star}}\n</text></view>
+      <view class="ticket"><text>门票价格：{{item.ticket}}\n</text></view>
+      <view class="intro"><text>简介:{{item.intro}}\n\n\n</text></view>
+    </view>
+  </view>
+  <!-- 评论区 -->
+  <view class="tip">评论区~</view>
+    <block wx:for="{{pinglun}}">
+      <image src="{{item.avatarUrl}}" class="avatarUrl"/>
+      <view class="comment">
+        <text class="color">{{item.name}}</text>
+        <text>发表了一条评论：\n</text>
+        <text>{{item.content}}</text>
+      </view>
+    </block>
+    <!-- 发表评论 -->
+    <textarea class="input" bindinput="getContent" type="text" value="{{content}}" placeholder="请输入评论内容" />
+    <view class="but"><button bind:tap="submitCom" class="button" style="width:165rpx;height:70rpx;">发送</button></view>
+</view>
+<!-- 上传更多 -->
+<view class="zhanwei"><text>\n\n\n</text></view>
+<navigator url="../form/form">
+  <view class="up"><image class="upl" src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/upload.png"></image>
+  <view class="uploa"><text class="up">\n点击上传更多的景观吧~</text></view></view>
+</navigator>
+<!-- 收藏城市 -->
+<text>\n\n\n\n</text>
+<view class="click">收藏该城市：</view>
+<view class="func">
+  <image src="{{imgUrl}}" bind:tap="clickMe" class="icon"></image>
+</view>

@@ -1,0 +1,31 @@
+.radio{
+  font-size:30rpx;
+  color:gray;
+  display:block;
+}
+.select{
+  margin-top:15rpx;
+  margin-bottom:15rpx;
+  color:rgb(165, 161, 161);
+}
+.input{
+  border:1px solid #ccc;
+  margin-top:40rpx;
+  margin-left:0rpx;
+  margin-right:20rpx;
+  margin-bottom:40rpx;
+  height:70rpx;
+}
+.tip{
+  font-size:37rpx;
+  margin-top:20rpx;
+  margin-left:10rpx;
+  margin-bottom:15rpx;
+}
+.up{
+  width:200rpx;
+  height:200rpx;
+  margin:0 auto;
+  margin-left:35%;
+  text-align: center;
+}

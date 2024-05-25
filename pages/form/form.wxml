@@ -1,0 +1,47 @@
+<!-- 获得城市信息 -->
+<view class="tip">城市（按首字母排序）：</view>
+<radio-group class="radio" bindchange="bandleChange">
+  <radio color="goldenrod" value="安徽"> 安徽 </radio>
+  <radio color="goldenrod" value="澳门"> 澳门 </radio>
+  <radio color="goldenrod" value="北京"> 北京 </radio>
+  <radio color="goldenrod" value="重庆"> 重庆 </radio>
+  <radio color="goldenrod" value="福建"> 福建 </radio>
+  <radio color="goldenrod" value="甘肃"> 甘肃 </radio>
+  <radio color="goldenrod" value="广东"> 广东 </radio>
+  <radio color="goldenrod" value="广西"> 广西 </radio>
+  <radio color="goldenrod" value="贵州"> 贵州 </radio>
+  <radio color="goldenrod" value="海南"> 海南 </radio>
+  <radio color="goldenrod" value="河北"> 河北 </radio>
+  <radio color="goldenrod" value="河南"> 河南 </radio>
+  <radio color="goldenrod" value="黑龙江"> 黑龙江 </radio>
+  <radio color="goldenrod" value="湖北"> 湖北 </radio>
+  <radio color="goldenrod" value="湖南"> 湖南 </radio>
+  <radio color="goldenrod" value="吉林"> 吉林 </radio>
+  <radio color="goldenrod" value="江苏"> 江苏 </radio>
+  <radio color="goldenrod" value="江西"> 江西 </radio>
+  <radio color="goldenrod" value="辽宁"> 辽宁 </radio>
+  <radio color="goldenrod" value="内蒙古"> 内蒙古 </radio>
+  <radio color="goldenrod" value="宁夏"> 宁夏 </radio>
+  <radio color="goldenrod" value="青海"> 青海 </radio>
+  <radio color="goldenrod" value="山东"> 山东 </radio>
+  <radio color="goldenrod" value="山西"> 山西 </radio>
+  <radio color="goldenrod" value="陕西"> 陕西 </radio>
+  <radio color="goldenrod" value="上海"> 上海 </radio>
+  <radio color="goldenrod" value="四川"> 四川 </radio>
+  <radio color="goldenrod" value="台湾"> 台湾 </radio>
+  <radio color="goldenrod" value="天津"> 天津 </radio>
+  <radio color="goldenrod" value="西藏"> 西藏 </radio>
+  <radio color="goldenrod" value="香港"> 香港 </radio>
+  <radio color="goldenrod" value="新疆"> 新疆 </radio>
+  <radio color="goldenrod" value="云南"> 云南 </radio>
+  <radio color="goldenrod" value="浙江"> 浙江 </radio>
+</radio-group>
+<view class="select">您选中的是:{{ city }}</view>
+<!-- 获取景区信息 -->
+<view class="tip">景区名称：<input class="input" type="text" bindinput="getName" required="required"/></view>
+<view class="tip">景区等级：<input class="input" type="text" bindinput="getGrade" required="required"/></view>
+<view class="tip">门票价格：<input class="input" type="text" bindinput="getTicket" required="required"/></view>
+<view class="tip">简要介绍：<textarea class="input"  bindinput="getIntro" required="required" auto-height/></view>
+<view class="tip">上传图片：</view>
+<image class="up" src="{{imgUrl}}" bind:tap="upload"/>
+<button bind:tap="submit">提交</button>

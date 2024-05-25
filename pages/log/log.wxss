@@ -1,0 +1,25 @@
+.tip{
+  margin-top:60rpx;
+  margin-bottom:40rpx;
+  margin-left:30rpx;
+  margin-right:40rpx;
+  font-size:40rpx;
+  padding-bottom: 60rpx;
+  border-bottom:2rpx solid #ccc;
+}
+.avatar-wrapper{
+  margin-top:-45rpx;
+  float:right;
+}
+.avatar{
+  width:150rpx;
+  height:150rpx;
+  margin-top:-15rpx;
+  margin-left:-47rpx;
+}
+.weui-input{
+  margin-top:-48rpx;
+  float:left;
+  margin-left:510rpx;
+  font-size:30rpx;
+}

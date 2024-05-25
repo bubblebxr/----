@@ -1,0 +1,12 @@
+<view wx:if="{{unlog}}">
+  <image class="unlog" src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/noLogin.png"/>
+  <view class="un"><text>抱歉，您还未登录~</text></view>
+</view>
+<view wx:else>
+  <view wx:for="{{enlighten}}" class="all">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/图标制作模版-02.png" class="img"/>
+    <text class="text">{{item}}</text>
+  </view>
+  <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/loading.png" class="loading"/>
+  <view class="tip">期待您点亮更多城市！</view>
+</view>

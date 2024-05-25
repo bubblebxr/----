@@ -1,0 +1,120 @@
+/* 景区部分 */
+.grade .ticktet .intro{
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.ti{
+  text-align: center;
+  margin-top:10rpx;
+  margin-bottom:10rpx;
+}
+.grade{
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.ticket{
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.intro{
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.pic{
+  margin:0 auto;
+  margin-top:20rpx;
+  margin-left:20rpx;
+  margin-right:20rpx;
+}
+.img{
+  border-radius: 30rpx;
+  width:100%;
+  height:480rpx;
+}
+.tittle{
+  font-size:40rpx;
+  color:goldenrod;
+}
+/* 评论区 */
+.tip{
+  font-size:40rpx;
+  color:goldenrod;
+  border-top:15rpx solid rgb(219, 213, 213);
+  padding-top:30rpx;
+}
+.avatarUrl{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 80rpx;
+  margin-top:20rpx;
+  margin-left:10rpx;
+}
+.comment{
+  border-bottom:2px solid gainsboro;
+  margin-left:100rpx;
+  margin-right:20rpx;
+  margin-top:-90rpx;
+  margin-bottom:20rpx;
+  padding-bottom:15rpx;
+  color:rgb(94, 87, 87);
+}
+.color{
+  /* color:rgb(20, 1, 1); */
+  font-weight:bold;
+}
+.input{
+  border:1px solid #ccc;
+  height:70rpx;
+  border-radius:10rpx;
+  margin-top:40rpx;
+  margin-left:100rpx;
+  margin-right:20rpx;
+  margin-bottom:40rpx;
+  padding-top:30rpx;
+}
+.but{
+  margin-right:20rpx;
+}
+.button{
+  float:right;
+  padding-top:11rpx;
+}
+/* 上传更多 */
+.zhanwei{
+  border-top:15rpx solid rgb(219, 213, 213);
+  margin-top:150rpx;
+}
+.uploa{
+  margin-left:-90rpx;
+  color:#ccc;
+}
+.up{
+  margin:0 auto;
+  margin-top:-50rpx;
+  margin-left:320rpx;
+}
+.upl{
+  width:80rpx;
+  height:80rpx;
+}
+/* 收藏 */
+.click{
+  font-size:40rpx;
+  color:goldenrod;
+  border-top:15rpx solid rgb(219, 213, 213);
+  padding-top:30rpx;
+}
+.func{
+  margin-top:-63rpx;
+  margin-left:220rpx;
+}
+.icon{
+  width:70rpx;
+  height:70rpx;
+}

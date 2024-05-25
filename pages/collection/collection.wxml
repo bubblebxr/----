@@ -1,0 +1,150 @@
+<view wx:if="{{unlog}}">
+  <image class="unlog" src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/noLogin.png"/>
+  <view class="un"><text>抱歉，您还未登录~</text></view>
+</view>
+<view wx:else>
+  <view wx:if="{{anhui}}" class="save">
+    <navigator url="/pages/detail/detail?id=0375964d64eaf96002adcd600a70e732">
+      <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/huangshan.jpg" class="img"></image>
+      <text class="text">\n安徽</text>
+    </navigator>
+  </view>
+  <view wx:if="{{aomen}}" class="save">
+    <navigator url="/pages/detail?id=97c427db64eafdd702a9c8d76924504a">
+      <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/lvyouta.jpg" class="img"/>
+      <text class="text">\n澳门</text>
+    </navigator>
+  </view>
+  <view wx:if="{{chongqing}}" class="save">
+    <navigator url="/pages/detail?id=43e67d8d64ec777a0003fb474eca2fd8">
+      <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/1693226716178.png" class="img"/>
+      <text class="text">\n重庆</text>
+    </navigator>
+  </view>
+  <view wx:if="{{beijing}}" class="save">
+    <navigator url="/pages/detail?id=f5b547c464eafde902ad470a42e6e944">
+      <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/1693226020258.png" class="img"/>
+      <text class="text">\n北京</text>
+    </navigator>
+  </view>
+  <view wx:if="{{fujian}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693271393116.png" class="img"/>
+    <text class="text">福建</text>
+  </view>
+  <view wx:if="{{gansu}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693367582314.png" class="img"/>
+    <text class="text">甘肃</text>
+  </view>
+  <view wx:if="{{guangdong}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693375210400.png" class="img"/>
+    <text class="text">广东</text>
+  </view>
+  <view wx:if="{{guangxi}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693378238683.png" class="img"/>
+    <text class="text">广西</text>
+  </view>
+  <view wx:if="{{guizhou}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693378351693.png" class="img"/>
+    <text class="text">贵州</text>
+  </view>
+  <view wx:if="{{hainan}}" class="save">
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/huangshan.jpg" class="img"/>
+    <text class="text">海南</text>
+  </view>
+  <view wx:if="{{hebei}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693378615192.png" class="img"/>
+    <text class="text">河北</text>
+  </view>
+  <view wx:if="{{henan}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/1693378740639.png" class="img"/>
+    <text class="text">河南</text>
+  </view>
+  <view wx:if="{{heilongjiang}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/ha.jpg" class="img"/>
+    <text class="text">黑龙江</text>
+  </view>
+  <view wx:if="{{hubei}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/wuhan.jpg" class="img"/>
+    <text class="text">湖北</text>
+  </view>
+  <view wx:if="{{hunan}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/zhang.jpg" class="img"/>
+    <text class="text">湖南</text>
+  </view>
+  <view wx:if="{{jilin}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/chang.jpg" class="img"/>
+    <text class="text">吉林</text>
+  </view>
+  <view wx:if="{{jiangsu}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/nan.jpg" class="img"/>
+    <text class="text">江苏</text>
+  </view>
+  <view wx:if="{{jiangxi}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/jing.jpg" class="img"/>
+    <text class="text">江西</text>
+  </view>
+  <view wx:if="{{liaoning}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/pan.jpg" class="img"/>
+    <text class="text">辽宁</text>
+  </view>
+  <view wx:if="{{neimenggu}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/nei.jpg" class="img"/>
+    <text class="text">内蒙古</text>
+  </view>
+  <view wx:if="{{ningxia}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/ning.jpg" class="img"/>
+    <text class="text">宁夏</text>
+  </view>
+  <view wx:if="{{qinghai}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/qing.jpg" class="img"/>
+    <text class="text">青海</text>
+  </view>
+  <view wx:if="{{shandong}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/kong.jpg" class="img"/>
+    <text class="text">山东</text>
+  </view>
+  <view wx:if="{{shanxi}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/shan.jpg" class="img"/>
+    <text class="text">山西</text>
+  </view>
+  <view wx:if="{{shanxi3}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/3.webp" class="img"/>
+    <text class="text">陕西</text>
+  </view>
+  <view wx:if="{{shanghai}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/dong.jpg" class="img"/>
+    <text class="text">上海</text>
+  </view>
+  <view wx:if="{{sichuan}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/sichuan.jpg" class="img"/>
+    <text class="text">四川</text>
+  </view>
+  <view wx:if="{{taiwan}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/taiwan.jpg" class="img"/>
+    <text class="text">台湾</text>
+  </view>
+  <view wx:if="{{tianjin}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/tianjin.jpg" class="img"/>
+    <text class="text">天津</text>
+  </view>
+  <view wx:if="{{xizang}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/xizang.jpg" class="img"/>
+    <text class="text">西藏</text>
+  </view>
+  <view wx:if="{{xianggang}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/xianggang.jpg" class="img"/>
+    <text class="text">香港</text>
+  </view>
+  <view wx:if="{{xinjiang}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/xinjiang.jpg" class="img"/>
+    <text class="text">新疆</text>
+  </view>
+  <view wx:if="{{yunnan}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/yunnan.jpg" class="img"/>
+    <text class="text">云南</text>
+  </view>
+  <view wx:if="{{zhejiang}}" class="save">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/zhejiang.jpg" class="img"/>
+    <text class="text">浙江</text>
+  </view>
+</view>

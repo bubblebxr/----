@@ -1,0 +1,14 @@
+<input type="text" bindinput="getFeed" placeholder="期待您的反馈与建议" class="input"/>
+<view class="but"><button bind:tap="submit" class="button" style="width:165rpx;height:70rpx;">发送</button></view>
+<view wx:for="{{feedlist}}"  wx:key="index" class="all">
+  <view wx:if="{{item.tickle}}">
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/已完成.png" class="icon"/>
+    <text class="yes">已解决</text>
+  </view>
+  <view wx:else>
+    <image src="cloud://bxr-9gc8orxf1bdb5402.6278-bxr-9gc8orxf1bdb5402-1320348595/未完成.png" class="icon"/>
+    <text class="none">未解决</text>
+  </view>
+  <text class="ques">Q:{{item.question}}\n\n</text>
+  <text class="solu" wx:if="{{item.tickle}}">A:{{item.solution}}\n</text>
+</view>

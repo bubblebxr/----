@@ -1,0 +1,41 @@
+<!-- 轮播图 -->
+<swiper class="swip" indicator-dots="true" autoplay interval="3000" circular>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/lvyouta.jpg" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/huangshan.jpg" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/hongcun.jpg" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/gugong.jpg" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/dasan.jpg" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/1693271393116.png" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/1693226716178.png" mode="aspectFill" class="img"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/1693226020258.png" mode="aspectFill" class="img"/>
+  </swiper-item>
+</swiper>
+<!-- 选择城市 -->
+<view class="tip">选择您走过的城市，可获得专属您的旅行记录哦~</view>
+<view wx:for="{{cityList}}" wx:for-item="item" wx:key="index" bindtap="change" data-value="{{item.value}}" data-index="{{index}}" checked="{{item.selected}}" class="btn {{item.selected ? 'btn-selected' : ''}}" >
+  {{item.title}}
+</view>
+<!-- 按钮 -->
+<view class="enlighten">
+    <button bindtap="getData">获取您的旅行记录</button>
+</view>
+<view wx:if="{{get}}" class="all">
+  <text class="text">您已走过{{count}}个城市\n</text>
+  <text class="text">约占国土面积的{{percent}}%\n\n</text>
+  <text class="zuji">每个足迹都值得纪念</text>
+</view>

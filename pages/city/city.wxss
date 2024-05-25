@@ -1,0 +1,36 @@
+/* 搜索框 */
+.header{
+  padding:10rpx 0;
+}
+.search{
+  width: 90%;
+  background-color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size:40rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  margin-bottom:20rpx;
+  border-radius: 60rpx;
+  border:3rpx solid #ccc;
+  text-align: center;
+  color:#9b9797;
+}
+/* 选择城市栏 */
+.city{
+  display: flex;
+  margin-top:10rpx;
+  margin-left:40rpx;
+  margin-right:40rpx;
+  padding: 30rpx 0rpx;
+  justify-content: space-between;
+  border-bottom: 2rpx solid rgb(238, 238, 238);
+}
+.text{
+  font-size:35rpx;
+}
+.img{
+  width:35rpx;
+  height:35rpx;
+  vertical-align:middle;
+}

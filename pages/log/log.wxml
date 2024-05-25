@@ -1,0 +1,11 @@
+<view class="tip">
+  头像
+  <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar" style="width:150rpx;height:150rpx;">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+  </button> 
+</view>
+<view class="tip">
+  昵称
+  <view class="place"><input type="nickname" class="weui-input" placeholder="请输入昵称" bindinput="getNickname" required/></view>
+</view>
+<button bind:tap="login">登录</button>

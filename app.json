@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/city/city",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/search/search",
+    "pages/form/form",
+    "pages/collection/collection",
+    "pages/already/already",
+    "pages/log/log",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fffff0",
+    "navigationBarTitleText": "旅行图鉴",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "./images/notselectedicon/home.jpg",
+        "selectedIconPath": "./images/icon/home.png"
+      },
+      {
+        "pagePath": "pages/city/city",
+        "text": "分类",
+        "iconPath": "./images/notselectedicon/columns.jpg",
+        "selectedIconPath": "./images/icon/columns.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/notselectedicon/my.jpg",
+        "selectedIconPath": "./images/icon/my.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

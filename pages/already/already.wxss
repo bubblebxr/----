@@ -1,0 +1,37 @@
+/* 未登录状态 */
+.unlog{
+  margin-left:10%;
+  margin-right:10%;
+}
+.un{
+  text-align: center;
+  font-size:35rpx;
+}
+/* 登录状态 */
+.img{
+  margin-top:20rpx;
+  width:80rpx;
+  height:80rpx;
+  vertical-align:middle;
+  margin-bottom:20rpx;
+  padding-bottom:20rpx;
+}
+.all{
+  text-align: center;
+  border-bottom:2rpx solid #ccc;
+}
+.text{
+  margin-top:20rpx;
+  font-size:40rpx;
+}
+.tip{
+  text-align: center;
+  margin-top:20rpx;
+  color:rgb(114, 106, 106);
+  font-size:32rpx;
+}
+.loading{
+  width:600rpx;
+  height:400rpx;
+  margin-left:90rpx;
+}

@@ -1,0 +1,28 @@
+<!--登录与退出登录 -->
+<button class="login" wx-if="{{!log}}" bindtap="login" style="display:{{adminDisplay}}"><navigator url="../log/log">登录</navigator></button>
+<view wx:else class="userInfo">
+    <image src="{{avatarUrl}}"></image>
+    <text>{{nickName}}</text>
+    <button bindtap="logOut" class="logout">退出登录</button>
+</view>
+<!-- 工具栏 -->
+<view class="frame">
+  <view class="content">
+  <navigator url="../collection/collection">
+    <view class="func" bindtap="showPop">
+      <text>我的收藏</text>
+      <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/next.png"></image>
+  </view></navigator>
+  <navigator url="../already/already" >
+    <view class="func" bind:tap="showPop">
+    <text>已点亮的城市</text>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/next.png"></image>
+  </view></navigator>
+  <navigator url="../feedback/feedback" >
+    <view class="func" bind:tap="showPop">
+    <text>建议与反馈</text>
+    <image src="https://6278-bxr-9gc8orxf1bdb5402-1320348595.tcb.qcloud.la/next.png"></image>
+  </view></navigator>
+  </view>
+</view>
+<view class="share"><button open-type="share">分享</button></view>

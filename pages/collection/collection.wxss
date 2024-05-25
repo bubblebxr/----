@@ -1,0 +1,22 @@
+/* 未登录状态 */
+.unlog{
+  margin-left:10%;
+  margin-right:10%;
+}
+.un{
+  text-align: center;
+  font-size:35rpx;
+}
+/* 登录状态 */
+.save{
+  margin-top:60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+}

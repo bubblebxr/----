@@ -1,0 +1,50 @@
+/* 登录信息 */
+.login{
+  margin-top:30rpx;
+  font-size:35rpx;
+  border:3rpx solid #ccc;
+  background-color:white;
+}
+.logout{
+  margin-top:30rpx;
+  font-size:35rpx;
+  border:3rpx solid #ccc;
+  background-color:white;
+}
+.userInfo{
+  margin-top:60rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userInfo image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+}
+/* 工具栏 */
+.frame{
+  margin-top: 50rpx;
+  margin-left:50rpx;
+  margin-right:50rpx;
+}
+.func{
+  display: flex;
+  margin: 20rpx 40rpx;
+  padding: 30rpx 0rpx;
+  justify-content: space-between;
+  border-bottom: 2rpx solid rgb(238, 238, 238);
+}
+.func image{
+  width:35rpx;
+  height:35rpx;
+  align-self: center;
+}
+.share button{
+  margin-top:30rpx;
+  background-color:white;
+  border:3rpx solid black;
+  text-align: center;
+  font-weight:normal;
+  font-size:40rpx;
+}
