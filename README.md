@@ -19,6 +19,7 @@
 数据库主要用于存储城市信息citylist。城市信息citylist有基本实体集：城市city，景点jingdian，评论pinglun。其中，景点jingdian的属性集为：景区名称name，景区等级star，门票价格ticket，景点介绍intro和景区照片img；评论pinglun的属性集为：昵称name，头像avatarUrl，评论内容content。各实体间的联系为：可以存在多个城市，每个城市可以有多个景点，多个评论。
 ## 关键算法设计
 生成旅行记录功能利用change函数，得到存储已经走过的城市的数组detailValue，再利用数组的个数和数组中具体城市和对应所占中国的国土面积来计算走过城市个数和走过中国百分之多少的国土：
+'''
     change(e) {
     let string = "cityList[" + e.target.dataset.index + "].selected"
     this.setData({
@@ -27,7 +28,9 @@
     detailValue = this.data.cityList.filter(it => it.selected).map(it => it.value)
     //console.log('所有选中的值为：', detailValue)
     },
+ '''
 在搜索框输入城市，若输入正确可自动跳转到相应城市页面：
+'''
     getSearch(event){
     //获取城市名称
     this.setData({
@@ -45,7 +48,9 @@
       })
       ID=""
     }
+'''
 利用bindinput获取到评论信息，调用云函数caozuo获取到城市的原有评论，再将新输入的评论加入其中：
+'''
     //获取用户评论
     getContent(eve){
     this.setData({
@@ -84,7 +89,9 @@
       })
       // 隐藏提示信息
     },
+'''
 将景点照片上传至云存储中
+'''
     // 上传照片到云数据库
     uploadImg(fileUrl){
     wx.cloud.uploadFile({
@@ -102,6 +109,7 @@
       fail:console.error
     })
     },
+'''
 ## 部署与运行
 - 编程语言：wxml，wxss，JavaScript
 - 开发环境：微信开发者工具 
